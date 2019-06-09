@@ -6,7 +6,7 @@
   "author": "Burning Garden",
   "homepage": "https://burninggarden.com",
   "repository": "https://github.com/burninggarden/http",
-  "preferGlobal": true,
+  "main": "./dist/src/index.js",
   "dependencies": {
     "@types/node": "10.9.4",
     "typescript": "3.2.1"
@@ -18,10 +18,10 @@
     "tap": "14.2.2"
   },
   "scripts": {
-    "install": "./bin/install",
-    "test": "./bin/test",
-    "lint": "./bin/lint",
-    "preversion": "./bin/preversion",
+    "install":     "./bin/install",
+    "test":        "./bin/test",
+    "lint":        "./bin/lint",
+    "preversion":  "./bin/preversion",
     "postversion": "./bin/postversion"
   }
 }
