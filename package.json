@@ -1,7 +1,7 @@
 {
   "name": "@burninggarden/http",
   "description": "Your project description here",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "author": "Burning Garden",
   "homepage": "https://burninggarden.com",
@@ -18,10 +18,10 @@
     "tap": "14.2.2"
   },
   "scripts": {
-    "install":     "./bin/install",
-    "test":        "./bin/test",
-    "lint":        "./bin/lint",
-    "preversion":  "./bin/preversion",
+    "install": "./bin/install",
+    "test": "./bin/test",
+    "lint": "./bin/lint",
+    "preversion": "./bin/preversion",
     "postversion": "./bin/postversion"
   }
 }
